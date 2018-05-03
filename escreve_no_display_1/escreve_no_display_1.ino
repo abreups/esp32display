@@ -12,7 +12,7 @@
 // construtor do objeto do display
 // parametros: address,SDA,SCL
 // (Documentação da placa WiFi LoRa 32)
-SSD1306 display(0x3c, 4, 15); 
+SSD1306 tela(0x3c, 4, 15); 
 
 void setup() {
  //configura GPIO16 como saida
@@ -20,17 +20,17 @@ void setup() {
   digitalWrite(16, LOW);    // reseta o OLED
   delay(10);                // aguarda pelo menos 5 ms
   digitalWrite(16, HIGH);   // mantém GPIO16 em 1 durante uso do OLED
-  display.init();           // inicializa o display
-  display.clear();          // limpa a tela do display
+  tela.init();           // inicializa o display
+  tela.clear();          // limpa a tela do display
   
-  display.drawString(0, 0, "OLED display"); // prepara texto para o display
-  display.drawString(0, 10, "Linha 2");     // prepara texto para o display
-  display.drawString(10, 20, "deslocado");  // prepara texto para o display
-  display.display();                        // mostra o texto no display
+  tela.drawString(0, 0, "OLED display"); // prepara texto para o display
+  tela.drawString(0, 10, "Linha 2");     // prepara texto para o display
+  tela.drawString(10, 20, "deslocado");  // prepara texto para o display
+  tela.display();                        // mostra o texto no display
 
   delay(5000);        // aguarda 5 s
-  display.clear();    // apaga texto que vai para o display
-  display.display();  // mostra o texto (vazio) no display
+  tela.clear();    // apaga texto que vai para o display
+  tela.display();  // mostra o texto (vazio) no display
 }
 
 void loop() {
