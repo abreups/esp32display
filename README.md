@@ -15,3 +15,4 @@ escrever na tela do display e apagar o conteúdo da tela.
 
 1. https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series#instructions
 2. http://www.heltec.cn/download/WIFI_LoRa_32_Diagram.pdf
+3. Endereços I2C: https://learn.adafruit.com/i2c-addresses/the-list
