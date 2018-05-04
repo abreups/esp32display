@@ -11,4 +11,7 @@ Em seguida aguarda 5 segundos e apaga a tela.
 O objetivo é mostrar os comando para inicializar o display,
 escrever na tela do display e apagar o conteúdo da tela.
 
-Referência: https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series#instructions
+## Referências: 
+
+1. https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series#instructions
+2. http://www.heltec.cn/download/WIFI_LoRa_32_Diagram.pdf
